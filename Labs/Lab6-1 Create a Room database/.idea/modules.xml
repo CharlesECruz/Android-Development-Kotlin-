@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lab6-1_Create_a_Room_database.iml" filepath="$PROJECT_DIR$/.idea/modules/Lab6-1_Create_a_Room_database.iml" group="Lab6-1_Create_a_Room_database" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Lab6-1 Create a Room database/app" />
+    </modules>
+  </component>
+</project>
