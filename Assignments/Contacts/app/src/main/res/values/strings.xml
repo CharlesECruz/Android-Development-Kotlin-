@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment 2: Conctact List</string>
+    <string name="text_name">Contact name</string>
+    <string name="placeholderName">First Last (2 words):</string>
+    <string name="text_phone">Phone Number:</string>
+    <string name="placeholderPhone">10 digits</string>
+    <string name="btn_text_submit">Submit</string>
+    <string name="text_add_contact">Add Contact</string>
+</resources>

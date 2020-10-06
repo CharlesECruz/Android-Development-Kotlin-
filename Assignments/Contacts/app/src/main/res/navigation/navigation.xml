@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/contactsFragment">
+
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="ca.ciccc.carlos.contacts.list.ContactsFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_contacts">
+        <action
+            android:id="@+id/action_contactsFragment_to_additionFragment"
+            app:destination="@id/additionFragment"
+            app:enterAnim="@anim/slide_in_right" />
+        <argument
+            android:name="newContact"
+            app:argType="ca.ciccc.carlos.contacts.network.Contact" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/additionFragment"
+        android:name="ca.ciccc.carlos.contacts.addition.AdditionFragment"
+        android:label="Add Contact"
+        tools:layout="@layout/fragment_addition">
+        <action
+            android:id="@+id/action_additionFragment_to_contactsFragment"
+            app:destination="@id/contactsFragment"
+            app:launchSingleTop="false"
+            app:popUpTo="@+id/contactsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>
